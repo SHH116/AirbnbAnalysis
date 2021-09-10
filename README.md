@@ -48,7 +48,7 @@ As the Airbnb market gets more competitive and more hosts join the network, it b
   
 7-Implementing and evaluating a Linear Regression model to predict price
   
-8-Correcting the lienar regression model
+8-Correcting the linear regression model
   
 
 
@@ -61,16 +61,10 @@ As the Airbnb market gets more competitive and more hosts join the network, it b
   
   
   <dt>Data Sources:</dt>
-  <dd>[1] https://ca.finance.yahoo.com/quote/SPY/history?p=SPY</dd>
-  <dd>[2] https://ca.finance.yahoo.com/quote/%5EVIX/history?p=%5EVIX</dd>
-  <dd>[3] https://stooq.com/db/h/</dd>
-  <dd>[4] https://www.barchart.com/ondemand/api/getHistory?gclid=Cj0KCQjw7MGJBhD-ARIsAMZ0eeuwPQiDLvub5yVYGvvfyW4AyeWpHGH9lBK1XylfM3DSyAygHiji6ccaAtpOEALw_wcB</dd>
-  <dd>[5] https://www.quandl.com/search?query=stocks</dd>
+  <dd>[1] https://www.kaggle.com/airbnb/seattle</dd>
+  <dd>[2] https://www.kaggle.com/airbnb/boston</dd>
   
   
-## Acknowledgments
   
-Thanking Dmitry Vyushin of RBC for his supervision and guidance
-  
-Sasha Hajy Hassani as the developer
+
 

@@ -38,7 +38,7 @@ As the Airbnb market gets more competitive and more hosts join the network, it b
 
 a) At least 30 isntances for a simple regression and 10 isntances per any additional feature is required. Given the 90+ features, at least 1000 isntances are required.
 
-b) The Large number of features would ineivtably improve the R-squred of the model, but aalso exposes it to overfitting and noise learning.
+b) The Large number of features would inevitably improve the R-squred of the model, but also exposes it to overfitting and noise learning.
 
 c) It is critical to avoid horizontal imputations as they can lead to synthetically increased feature collinearity.
 

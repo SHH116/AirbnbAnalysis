@@ -19,14 +19,14 @@ As the Airbnb market gets more competitive and more hosts join the network, it b
 ## Linear Regression assumptions
 <dl>
   
-  <dt>The regression model is linear in the coefficients and the error term:</dt>
-  <dt>The error term (unpredictable random error) has a population mean of zero:</dt>
-  <dt>All independent variables are uncorrelated with the error term:</dt>
-  <dt>Observations of the error term are uncorrelated with each other (residual plots must be random and non-trending, no autocorrelation of residuals/errors):</dt>
-  <dt>Variance of erros is constant and sum of errors must be zero:</dt>
-  <dt>No independent variable is a perfect linear function of other explanatory variables (co-linearity of indep variables should not exist):
-  <dt>Observations are independent of each other:</dt>
-  <dt>Y (dependent variable) must have constant variance:</dt>
+  <dt>The regression model is linear in the coefficients and the error term</dt>
+  <dt>The error term (unpredictable random error) has a population mean of zero</dt>
+  <dt>All independent variables are uncorrelated with the error term</dt>
+  <dt>Observations of the error term are uncorrelated with each other (residual plots must be random and non-trending, no autocorrelation of residuals/errors)</dt>
+  <dt>Variance of erros is constant and sum of errors must be zero</dt>
+  <dt>No independent variable is a perfect linear function of other explanatory variables (co-linearity of indep variables should not exist)</dt>
+  <dt>Observations are independent of each other</dt>
+  <dt>Y (dependent variable) must have constant variance</dt>
   
 </dl>
   

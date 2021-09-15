@@ -48,7 +48,7 @@ e) Scatter plots of X and y must be checked to ensure the variance of the train 
 
 f) One-hot-encoding of each cateogorical feature results in many new synthetic features and subsequently more instances of data are required for appropriate fitting. Given that the dataset contains very limited (approxiamtely 4000) rows of data, identifying and removing irrelevant categorical features is beneficial. 
 
-g) An alternative solution to the above is to bin multiple categories of a feature column based on their similarity. For example, instead of having
+g) An alternative solution to the above is to bin multiple categories of a feature column based on their similarity. For example, instead of having, "calendar_updated_yesterday", "calendar_updated_2 days ago","calendar_updated_3 days ago" ,etc, form a bin where all calendar_updated which occured from today to 1 week ago get fused into group A, those that occured from 1 month ago to 1 week ago get fused into group B and so on. This way I do not have to carry too many categories, and isntead can bin the data without sacrificing any information.
 
 
 

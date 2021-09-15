@@ -26,10 +26,34 @@ As the Airbnb market gets more competitive and more hosts join the network, it b
   <dt>Variance of erros is constant and sum of errors must be zero</dt>
   <dt>No independent variable is a perfect linear function of other explanatory variables (co-linearity of indep variables should not exist)</dt>
   <dt>Observations are independent of each other</dt>
-  <dt>Y (dependent variable) must have constant variance</dt>
+  <dt>y (dependent variable) must have constant variance</dt>
   
 </dl>
   
+
+
+
+## Linear Regression in practice
+
+
+a) At least 30 isntances for a simple regression and 10 isntances per any additional feature is required. Given the 90+ features, at least 1000 isntances are required.
+
+b) The Large number of features would ineivtably improve the R-squred of the model, but aalso exposes it to overfitting and noise learning.
+
+c) It is critical to avoid horizontal imputations as they can lead to synthetically increased feature collinearity.
+
+d) Features conveying similar information, must be removed to simplify the model.
+
+e) Scatter plots of X and y must be checked to ensure the variance of the train and test data is constant.
+
+f) One-hot-encoding of each cateogorical feature results in many new synthetic features and subsequently more instances of data are required for appropriate fitting. Given that the dataset contains very limited (approxiamtely 4000) rows of data, identifying and removing irrelevant categorical features is beneficial. 
+
+
+
+
+
+
+
 
 ## Project steps
   

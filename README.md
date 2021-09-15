@@ -48,6 +48,8 @@ e) Scatter plots of X and y must be checked to ensure the variance of the train 
 
 f) One-hot-encoding of each cateogorical feature results in many new synthetic features and subsequently more instances of data are required for appropriate fitting. Given that the dataset contains very limited (approxiamtely 4000) rows of data, identifying and removing irrelevant categorical features is beneficial. 
 
+g) An alternative solution to the above is to bin multiple categories of a feature column based on their similarity. For example, instead of having
+
 
 
 
